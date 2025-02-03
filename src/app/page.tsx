@@ -11,15 +11,19 @@ const page = () => {
           alt="profile-picture"
           width={3024}
           height={4032}
-          className="rounded-full object-cover  w-[200px] h-[200px] shadow shadow-blue-500"
+          className="rounded-full object-cover  w-[200px] h-[200px] shadow shadow-blue-500 cursor-pointer hover:shadow-neutral-600 transition-all"
         />
         <h1 className="py-4 text-sm flex items-center justify-center flex-col leading-6">
           <p>
-            My name is{" "}
-            <span className="font-semi-bold text-xl">Emmanuel Francis</span>
+            My name is <span className="font-semi-bold">Emmanuel Francis</span>
           </p>
           <p>I am a 24 years old software developer</p>
-          <p>Located in Rwanda 🇷🇼</p>
+          <p>
+            I am from South Sudan <span className="text-xl">🇸🇸</span>
+          </p>
+          <p>
+            Located in Rwanda <span className="text-xl">🇷🇼</span>
+          </p>
         </h1>
         <div>
           <div className="flex items-center justify-center gap-2 text-3xl">
