@@ -13,7 +13,7 @@ const page = () => {
         height={4032}
         className="rounded-full object-cover  w-[200px] h-[200px] shadow shadow-blue-900 cursor-pointer hover:shadow-neutral-600 transition-all"
       />
-      <h1 className="pt-4 text-2xl flex items-center justify-center flex-col">
+      <h1 className="pt-4 flex items-center justify-center flex-col">
         <p>
           My name is <span className="font-semi-bold">Emmanuel Francis</span>
         </p>

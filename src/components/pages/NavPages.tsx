@@ -28,7 +28,7 @@ const NavPages = () => {
           <ul className="flex items-center space-x-8 py-[8px] shadow-sm hover:shadow-blue-900 mt-4 border border-neutral-700 px-6 rounded-lg transition-all text-sm">
             {PagesLinks.map((link) => (
               <Link href={link.href} key={link.href}>
-                <li className="cursor-pointer active:opacity-45">
+                <li className="cursor-pointer active:opacity-45 text-[12px]">
                   {link.label}
                 </li>
               </Link>
