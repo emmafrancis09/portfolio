@@ -13,11 +13,14 @@ const Page = () => {
         height={4032}
         className="rounded-full object-cover w-[200px] h-[200px] shadow shadow-blue-900 cursor-pointer hover:shadow-neutral-600 transition-all"
       />
-      <h1 className="pt-4 flex items-center justify-center flex-col">
+      <h1 className="pt-4 flex items-center justify-center flex-col text-3xl">
         <p>
           My name is <span className="font-semibold">Emmanuel Francis</span>
         </p>
-        <p>I am a 24-year-old software developer</p>
+        <p>
+          I am a 24-year-old{" "}
+          <span className="text-blue-400">software developer</span>
+        </p>
         <p>Located in Rwanda 🇷🇼</p>
       </h1>
       <div className="flex items-center justify-start gap-4 text-xl py-2">

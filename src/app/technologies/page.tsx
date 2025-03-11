@@ -1,8 +1,13 @@
 import React from "react";
-import { BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
+import {
+  BiLogoMongodb,
+  BiLogoTailwindCss,
+  BiLogoTypescript,
+} from "react-icons/bi";
 import { FaCss3, FaHtml5, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { RiNextjsFill } from "react-icons/ri";
+import { SiMongoose } from "react-icons/si";
 
 const technologies = [
   { icon: FaHtml5, label: "HTML" },
@@ -12,6 +17,8 @@ const technologies = [
   { icon: BiLogoTailwindCss, label: "Tailwind CSS" },
   { icon: RiNextjsFill, label: "Next.js" },
   { icon: BiLogoTypescript, label: "TypeScript" },
+  { icon: SiMongoose, label: "Mongoose" },
+  { icon: BiLogoMongodb, label: "MongoDb" },
 ];
 
 const Page = () => {
